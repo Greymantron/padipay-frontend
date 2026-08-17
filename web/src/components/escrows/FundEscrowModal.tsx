@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { ShieldAlert, Loader2, ArrowRight } from 'lucide-react';
+import { ShieldAlert, Loader2 } from 'lucide-react';
 import { useWalletBalance } from '@/src/hooks/queries/useWalletQuery';
 import { useFundEscrowMutation } from '@/src/hooks/mutations/useFundEscrowMutation';
 import { Button } from '@/components/ui/Button';

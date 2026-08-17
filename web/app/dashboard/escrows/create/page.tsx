@@ -14,7 +14,7 @@ export default function CreateEscrowPage() {
   const buyerPublicKey = walletData?.data?.publicKey || null;
 
   const createEscrowMutation = useMutation({
-    mutationFn: async (data: { actionType: string; params: any }) => {
+    mutationFn: async (data: { actionType: string; params: Record<string, unknown> }) => {
       const response = await apiClient.post('/api/relayer/submit-escrow', data);
       return response.data;
     },

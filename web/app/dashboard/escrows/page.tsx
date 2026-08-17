@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { ArrowRightLeft, PlusCircle, RefreshCw, Calendar, User, FileText } from 'lucide-react';
+import { ArrowRightLeft, PlusCircle, RefreshCw, Calendar, User } from 'lucide-react';
 import { useEscrows } from '@/src/hooks/queries/useEscrowQueries';
 import { EscrowBadge } from '@/src/components/escrows/EscrowBadge';
 import { useWalletInfo } from '@/src/hooks/queries/useWalletQuery';

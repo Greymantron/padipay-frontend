@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { ArrowRight, ArrowLeft, CheckCircle2, ShieldCheck, FileText, Loader2 } from 'lucide-react';
+import { ArrowRight, ArrowLeft, CheckCircle2, ShieldCheck, FileText } from 'lucide-react';
 import { escrowIntentSchema, EscrowIntentFormData } from '@/lib/validations/escrow.schema';
 import { TextInput } from '@/components/forms/TextInput';
 import { CurrencyInput } from '@/components/forms/CurrencyInput';
